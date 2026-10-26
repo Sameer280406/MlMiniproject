@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="LaptopLens — explainable laptop price intelligence powered by machine learning and live purchase price fine-tuning.">
+  <title>LaptopLens — Hardware intelligence</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div><div class="ambient ambient-b" aria-hidden="true"></div><div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="LaptopLens home"><span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 7.5h18a2 2 0 0 1 2 2v12H5v-12a2 2 0 0 1 2-2Z"/><path d="M3.5 25h25l-2 2.5h-21Z"/><path d="M12 12h8M12 16h5"/></svg></span><span class="brand-name">Laptop<span>Lens</span><small>HARDWARE INTELLIGENCE</small></span></a>
+    <nav aria-label="Main navigation" class="main-nav">
+      <button class="nav-link active" data-tab="estimate"><span class="nav-dot"></span>Valuation</button>
+      <button class="nav-link" data-tab="finetune"><span class="nav-dot"></span>Fine-tuning <span class="nav-count" id="finetuneCount">0</span></button>
+      <button class="nav-link" data-tab="models">Model lab</button>
+      <button class="nav-link" data-tab="history">History <span class="nav-count" id="historyCount">—</span></button>
+    </nav>
+    <div class="top-actions"><span class="market-status"><i></i> INDIA · INR</span><button class="icon-button" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42m-9.88 9.88-1.42 1.42"/><circle cx="12" cy="12" r="4"/></svg></button></div>
+  </header>
+  <main>
+    <section id="estimate" class="tab">
+      <div class="hero reveal">
+        <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-line"></span> THE VALUE OF EVERY COMPONENT</div><h1>Know what your<br><em>machine is worth.</em></h1><p>Machine learning meets hardware detail. Build a configuration, inspect the evidence, and get a price estimate continuously calibrated by real buyer transactions.</p><div class="hero-meta"><span><b class="meta-symbol">↗</b> Explainable estimates</span><span><b class="meta-symbol">◈</b> Continuous fine-tuning</span><span><b class="meta-symbol">⌁</b> Built for India</span></div></div>
+        <div class="hero-art" aria-label="Abstract illustration of a laptop"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="art-glow"></div><div class="laptop-illustration"><div class="screen-frame"><div class="screen-top"><span></span><span></span><span></span><b>LL / SYSTEM ANALYSIS</b></div><div class="screen-content"><div class="screen-kicker">ESTIMATED VALUE</div><div class="screen-price">₹<span>84,</span><strong>990</strong></div><div class="screen-chart"><i style="height:28%"></i><i style="height:43%"></i><i style="height:36%"></i><i style="height:62%"></i><i style="height:49%"></i><i style="height:77%"></i><i style="height:68%"></i><i style="height:92%"></i><i style="height:73%"></i><i style="height:100%"></i><i style="height:83%"></i><i style="height:95%"></i></div><div class="screen-bottom"><span>MODEL SIGNAL</span><b>+ COMPONENT VALUE</b></div></div></div><div class="laptop-base"></div></div><div class="floating-chip chip-top"><span class="chip-icon">⚡</span><span><b>Adaptive Learning</b><small>Updated after purchases</small></span></div><div class="floating-chip chip-bottom"><span class="chip-pulse"></span><span><b>3 model signals</b><small>Compared in real time</small></span></div><div class="art-caption">01 / HARDWARE VALUATION SYSTEM</div></div>
+      </div>
+      <div class="section-heading reveal"><div><span class="section-index">01 — CONFIGURE</span><h2>Build your machine profile</h2><p>Start with a catalogue device or create a custom configuration.</p></div><div class="step-indicator"><span class="step-active">01</span><i></i><span>02</span><i></i><span>03</span><small>CONFIGURE / ANALYZE / FINE-TUNE</small></div></div>
+      <div class="workspace">
+        <div class="config-column">
+          <article class="panel config-panel reveal">
+            <div class="panel-head"><div class="panel-title-icon">⌘</div><div><span class="micro-label">CONFIGURATION STUDIO</span><h3>Your laptop</h3></div><span class="panel-number">A / 01</span></div>
+            <label for="search" class="field-label">Find a catalogue configuration</label><div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg><input id="search" placeholder="Search brand, model or processor…" aria-label="Search catalogue"><kbd>⌕</kbd></div>
+            <label for="preset" class="field-label">Catalogue starting point <span class="optional-tag">OPTIONAL</span></label><select id="preset" aria-label="Catalogue laptop"></select>
+            <form id="form"><div class="form-heading"><div><span class="micro-label">TECHNICAL PROFILE</span><h3>Specifications</h3></div><span class="form-note">Confirm each component</span></div><div id="fields" class="fields"><div class="field-skeleton"></div><div class="field-skeleton"></div><div class="field-skeleton"></div><div class="field-skeleton"></div></div><label class="check"><input type="checkbox" id="confirmed" required><span class="custom-check"></span><span>I’ve checked the CPU, GPU, RAM, storage and laptop type.</span></label><button class="button button-primary full-width" id="submit" type="submit"><span>Estimate laptop value</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button><p id="error" role="alert"></p><div class="privacy-note"><span>⚡</span> Verified customer purchase prices continuously calibrate model accuracy.</div></form>
+          </article>
+        </div>
+        <div class="results-column"><article class="panel result-panel reveal" id="result" aria-live="polite"><div class="result-topline"><span class="live-indicator"><i></i> VALUATION OUTPUT</span><span class="result-ref">LL / 001</span></div><div class="empty-result"><div class="empty-orbit"><div class="empty-coin">₹</div><span class="empty-orbit-dot dot-one"></span><span class="empty-orbit-dot dot-two"></span><span class="empty-orbit-dot dot-three"></span></div><span class="micro-label">YOUR RESULT STARTS HERE</span><h2>Give your hardware<br>a <em>clearer value.</em></h2><p>Configure your laptop and run an estimate. Your result will include a price range, component impact, and the option to fine-tune the model with real purchase prices.</p><div class="empty-steps"><span><i>01</i> Configure</span><span><i>02</i> Estimate</span><span><i>03</i> Fine-Tune</span></div></div><div class="result-disclaimer"><span>ⓘ</span><p>Reference data: historical 2025 Indian laptop listings with real-time customer purchase price calibration.</p></div></article>
+          <div class="insight-strip reveal"><div class="insight-icon">⌁</div><div><span class="micro-label">BEYOND THE PRICE TAG</span><b>Every estimate comes with evidence.</b><p>Explore component contributions behind the model's output—not just a final number.</p></div><span class="insight-arrow">↘</span></div>
+          <div class="mini-stats reveal"><div><span class="micro-label">PRICE MODELS</span><b>03</b><small>Independent estimates</small></div><div><span class="micro-label">FINE-TUNING</span><b>ACTIVE</b><small>Real customer feedback</small></div><div><span class="micro-label">MARKET</span><b>INR</b><small>Indian listings</small></div></div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="finetune" class="tab" hidden>
+      <div class="page-banner reveal">
+        <div>
+          <span class="eyebrow"><span class="eyebrow-line"></span> CONTINUOUS MODEL FINE-TUNING</span>
+          <h1>Always learning.<br><em>Never static.</em></h1>
+          <p>Every time a customer purchases a laptop, their real paid price is fed back to the regression ensemble. The model continuously updates its pricing weights so valuations reflect real-world street transactions.</p>
+        </div>
+        <div class="banner-orb">⚡<span> / LEARN</span></div>
+      </div>
+      <div class="finetune-dashboard">
+        <div class="mini-stats reveal" style="margin-bottom: 24px;">
+          <div><span class="micro-label">PURCHASES LEARNED</span><b id="ftStatCount">—</b><small>Customer transactions</small></div>
+          <div><span class="micro-label">ONLINE LEARNING RATE</span><b>0.25</b><small>Adaptive gradient step</small></div>
+          <div><span class="micro-label">CALIBRATION ENGINE</span><b style="color:var(--accent);">ONLINE</b><small>Live residual update</small></div>
+        </div>
+        <div class="workspace">
+          <div class="config-column">
+            <article class="panel config-panel reveal">
+              <div class="panel-head"><div class="panel-title-icon">⚡</div><div><span class="micro-label">BUYER FEEDBACK</span><h3>Record a laptop purchase</h3></div><span class="panel-number">FT / 01</span></div>
+              <p style="font-size: 11px; color: var(--muted); margin-top: -12px; margin-bottom: 20px;">Did you recently buy a laptop? Tell us what it cost you. The model will immediately adapt its weights based on your transaction.</p>
+              <form id="standaloneFinetuneForm">
+                <label for="ftPreset" class="field-label">Select purchased laptop model</label>
+                <select id="ftPreset" aria-label="Select laptop model"></select>
+                <div class="field-unit" style="margin-top: 14px;">
+                  <label for="ftActualPrice">Actual purchase price you paid (₹ INR) *</label>
+                  <input type="number" id="ftActualPrice" min="10000" max="1500000" step="100" required placeholder="e.g. 74990">
+                </div>
+                <div class="field-unit" style="margin-top: 14px;">
+                  <label for="ftRetailer">Retailer / Store <small class="optional-tag">OPTIONAL</small></label>
+                  <input type="text" id="ftRetailer" placeholder="e.g. Amazon India, Croma, Flipkart, Official Store">
+                </div>
+                <div class="field-unit" style="margin-top: 14px;">
+                  <label for="ftNotes">Discounts or card offers applied <small class="optional-tag">OPTIONAL</small></label>
+                  <input type="text" id="ftNotes" placeholder="e.g. Bank card discount ₹3,500, festival sale">
+                </div>
+                <button class="button button-primary full-width" type="submit" id="ftSubmit" style="margin-top: 22px;">
+                  <span>⚡ Fine-tune model with this purchase</span>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
+                </button>
+                <p id="ftStatus" role="alert" style="margin-top: 12px; font-size: 11px;"></p>
+              </form>
+            </article>
+          </div>
+          <div class="results-column">
+            <article class="panel result-panel reveal" style="padding: 24px;">
+              <div class="result-topline" style="padding: 0 0 16px 0;">
+                <span class="live-indicator"><i></i> CONTINUOUS LEARNING LEDGER</span>
+                <span class="result-ref">VERIFIED TRANSACTIONS</span>
+              </div>
+              <p style="font-size: 11px; color: var(--muted); margin: 14px 0 16px;">These customer purchases are actively calibrating the machine learning models in real time:</p>
+              <div id="ftPurchasesList" class="tablewrap" style="margin-bottom: 20px;">
+                <div class="field-skeleton" style="margin: 15px;"></div>
+              </div>
+              <div class="panel-head" style="margin-top: 20px; margin-bottom: 12px;">
+                <div class="panel-title-icon" style="width: 30px; height: 30px; font-size: 15px;">◈</div>
+                <div><span class="micro-label">ACTIVE WEIGHT SHIFTS</span><h3 style="font-size: 16px;">Learned brand calibrations</h3></div>
+              </div>
+              <div id="ftBrandPills" style="margin-bottom: 20px;"></div>
+              <div style="display: flex; justify-content: flex-end; margin-top: 20px; border-top: 1px solid var(--line); padding-top: 16px;">
+                <button id="ftResetBtn" class="button button-secondary" type="button" style="font-size: 10px;"><span>↺</span> Reset calibrations</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="models" class="tab" hidden>
+      <div class="page-banner reveal">
+        <div>
+          <span class="eyebrow"><span class="eyebrow-line"></span> TRANSPARENCY BY DESIGN</span>
+          <h1>Inside the <em>model lab.</em></h1>
+          <p>Performance is measured on held-out laptop families, continuously fine-tuned by real-world customer purchase transactions.</p>
+        </div>
+        <div class="banner-orb">LL<span> / LAB</span></div>
+      </div>
+      <div id="metrics" class="data-grid">
+        <div class="field-skeleton"></div>
+        <div class="field-skeleton"></div>
+      </div>
+    </section>
+    
+    <section id="history" class="tab" hidden>
+      <div class="page-banner reveal">
+        <div>
+          <span class="eyebrow"><span class="eyebrow-line"></span> YOUR VALUATION JOURNAL</span>
+          <h1>Every estimate.<br><em>One place.</em></h1>
+          <p>Recent valuations and calibrated customer purchase points stored on this computer.</p>
+        </div>
+        <button id="clear" class="button button-secondary"><span>⌫</span> Clear history</button>
+      </div>
+      <div id="historylist" class="history-grid">
+        <div class="field-skeleton"></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <a class="brand footer-brand" href="/" aria-label="LaptopLens home"><span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 7.5h18a2 2 0 0 1 2 2v12H5v-12a2 2 0 0 1 2-2Z"/><path d="M3.5 25h25l-2 2.5h-21Z"/><path d="M12 12h8M12 16h5"/></svg></span><span class="brand-name">Laptop<span>Lens</span><small>HARDWARE INTELLIGENCE</small></span></a>
+    <p>Built for explainable estimates <span>·</span> Continuous purchase price fine-tuning <span>·</span> Hardware intelligence</p>
+    <span class="footer-version">PRODUCT INTERFACE / 02.1</span>
+  </footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>
