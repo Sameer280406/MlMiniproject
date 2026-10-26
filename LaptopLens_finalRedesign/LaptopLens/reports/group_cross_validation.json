@@ -1,0 +1,131 @@
+{
+  "scope": "3-fold shuffled family-group cross-validation on development (train+validation) rows only. Calibration and final test excluded. Fixed hyperparameters; equal-weight ensemble benchmark, no model selection from these results.",
+  "folds": [
+    {
+      "fold": 1,
+      "model": "Ridge",
+      "test_rows": 208,
+      "MAE_INR": 14298.982743659177,
+      "RMSE_INR": 27876.564965062702,
+      "R2": 0.8260681736513132,
+      "MAPE_pct": 13.659476419590563,
+      "median_APE_pct": 9.647737182673893
+    },
+    {
+      "fold": 1,
+      "model": "Random Forest",
+      "test_rows": 208,
+      "MAE_INR": 13275.550698566025,
+      "RMSE_INR": 24711.120382872472,
+      "R2": 0.8633261542619566,
+      "MAPE_pct": 13.38992876393316,
+      "median_APE_pct": 8.290596518607082
+    },
+    {
+      "fold": 1,
+      "model": "Extra Trees",
+      "test_rows": 208,
+      "MAE_INR": 12721.233745439058,
+      "RMSE_INR": 24064.928991846817,
+      "R2": 0.8703806882690727,
+      "MAPE_pct": 12.834299225310545,
+      "median_APE_pct": 8.930373633456439
+    },
+    {
+      "fold": 1,
+      "model": "Fixed equal-weight ensemble",
+      "test_rows": 208,
+      "MAE_INR": 12718.894478320552,
+      "RMSE_INR": 24607.374092663773,
+      "R2": 0.8644713584526678,
+      "MAPE_pct": 12.29436188989009,
+      "median_APE_pct": 7.9181763576867805
+    },
+    {
+      "fold": 2,
+      "model": "Ridge",
+      "test_rows": 294,
+      "MAE_INR": 33282.28062334344,
+      "RMSE_INR": 191816.74035177147,
+      "R2": -4.951727134164585,
+      "MAPE_pct": 18.64281617934153,
+      "median_APE_pct": 11.278244704893163
+    },
+    {
+      "fold": 2,
+      "model": "Random Forest",
+      "test_rows": 294,
+      "MAE_INR": 16833.707653667054,
+      "RMSE_INR": 34861.326224845085,
+      "R2": 0.8034116358310628,
+      "MAPE_pct": 15.613388911455594,
+      "median_APE_pct": 11.70032752917701
+    },
+    {
+      "fold": 2,
+      "model": "Extra Trees",
+      "test_rows": 294,
+      "MAE_INR": 17371.12341116998,
+      "RMSE_INR": 33654.327503361026,
+      "R2": 0.8167888787940936,
+      "MAPE_pct": 17.059862383770287,
+      "median_APE_pct": 14.39644281071738
+    },
+    {
+      "fold": 2,
+      "model": "Fixed equal-weight ensemble",
+      "test_rows": 294,
+      "MAE_INR": 17562.102665028673,
+      "RMSE_INR": 53341.25167873069,
+      "R2": 0.5397472374708621,
+      "MAPE_pct": 15.24541068758731,
+      "median_APE_pct": 10.891468430683327
+    },
+    {
+      "fold": 3,
+      "model": "Ridge",
+      "test_rows": 223,
+      "MAE_INR": 18582.096627862637,
+      "RMSE_INR": 30813.307361027037,
+      "R2": 0.7679435472655485,
+      "MAPE_pct": 16.71285206069136,
+      "median_APE_pct": 11.112434184927794
+    },
+    {
+      "fold": 3,
+      "model": "Random Forest",
+      "test_rows": 223,
+      "MAE_INR": 17742.559043740544,
+      "RMSE_INR": 30854.90862088114,
+      "R2": 0.767316522224937,
+      "MAPE_pct": 16.02142281735519,
+      "median_APE_pct": 11.059138549783363
+    },
+    {
+      "fold": 3,
+      "model": "Extra Trees",
+      "test_rows": 223,
+      "MAE_INR": 17960.860159892833,
+      "RMSE_INR": 31904.455651500542,
+      "R2": 0.7512175757241373,
+      "MAPE_pct": 16.19269387050359,
+      "median_APE_pct": 10.32308225715984
+    },
+    {
+      "fold": 3,
+      "model": "Fixed equal-weight ensemble",
+      "test_rows": 223,
+      "MAE_INR": 17560.92675768525,
+      "RMSE_INR": 30155.4540187654,
+      "R2": 0.7777464224910104,
+      "MAPE_pct": 15.7740811747211,
+      "median_APE_pct": 10.880162355214498
+    }
+  ],
+  "mean_MAE_INR": {
+    "Ridge": 22054.453331621753,
+    "Random Forest": 15950.605798657874,
+    "Extra Trees": 16017.739105500625,
+    "Fixed equal-weight ensemble": 15947.307967011491
+  }
+}

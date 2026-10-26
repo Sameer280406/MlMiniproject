@@ -1,0 +1,338 @@
+{
+  "data_rows": 992,
+  "data_sha256": "e7efc73ecd824402009559360ba6c6134e2c04b276da000f35e34202c3fbb09a",
+  "split_strategy": "brand/model family grouped; 4 disjoint train/validation/calibration/test sets",
+  "split_sizes": {
+    "train": 646,
+    "validation": 79,
+    "calibration": 95,
+    "test": 172
+  },
+  "regression": {
+    "Ridge": {
+      "MAE_INR": 9531.774067110216,
+      "RMSE_INR": 19162.06203832739,
+      "R2": 0.8097980485260535,
+      "MAPE_pct": 11.342008458840068,
+      "median_APE_pct": 9.276299803798198
+    },
+    "Random Forest": {
+      "MAE_INR": 8692.139457176336,
+      "RMSE_INR": 16001.535274685206,
+      "R2": 0.867366328659505,
+      "MAPE_pct": 10.821216070838029,
+      "median_APE_pct": 7.507072782149862
+    },
+    "Extra Trees": {
+      "MAE_INR": 8264.479194447582,
+      "RMSE_INR": 14824.365611677693,
+      "R2": 0.8861631893928422,
+      "MAPE_pct": 10.304839113755019,
+      "median_APE_pct": 7.273907505620013
+    }
+  },
+  "selected_prediction": {
+    "MAE_INR": 8088.738866400506,
+    "RMSE_INR": 15618.901273390647,
+    "R2": 0.8736336491759875,
+    "MAPE_pct": 9.866940401175585,
+    "median_APE_pct": 7.246007579793023
+  },
+  "validation_MAE": {
+    "Ridge": 25115.853058391865,
+    "Random Forest": 25069.49949076103,
+    "Extra Trees": 24755.072596507664
+  },
+  "ensemble_weights": {
+    "Ridge": 0.33151849018272456,
+    "Random Forest": 0.3321314687051406,
+    "Extra Trees": 0.33635004111213485
+  },
+  "interval": {
+    "nominal_coverage": 0.9,
+    "test_coverage": 0.9534883720930233,
+    "log_residual_quantile": 0.3182377279070899
+  },
+  "price_scope": "Historical new-laptop Indian listing prices; source states December 2025. Category labels are source heuristics, not independent ground truth.",
+  "vision": {
+    "models": {
+      "HOG + Logistic Regression": {
+        "accuracy": 0.7169811320754716,
+        "balanced_accuracy": 0.680645475581537,
+        "macro_F1": 0.6313757981149285,
+        "confusion_matrix": [
+          [
+            5,
+            2,
+            1,
+            6,
+            3
+          ],
+          [
+            0,
+            5,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            37,
+            6,
+            3
+          ],
+          [
+            3,
+            2,
+            2,
+            55,
+            13
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            12
+          ]
+        ]
+      },
+      "HOG + RBF SVM": {
+        "accuracy": 0.710691823899371,
+        "balanced_accuracy": 0.5379641943734016,
+        "macro_F1": 0.5550582235684823,
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            1,
+            13,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            30,
+            12,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            69,
+            6
+          ],
+          [
+            0,
+            0,
+            1,
+            3,
+            10
+          ]
+        ]
+      },
+      "HOG + Extra Trees": {
+        "accuracy": 0.6540880503144654,
+        "balanced_accuracy": 0.5741746437705517,
+        "macro_F1": 0.5409022145864251,
+        "confusion_matrix": [
+          [
+            1,
+            0,
+            3,
+            11,
+            2
+          ],
+          [
+            0,
+            5,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            25,
+            17,
+            4
+          ],
+          [
+            0,
+            3,
+            2,
+            63,
+            7
+          ],
+          [
+            0,
+            0,
+            1,
+            3,
+            10
+          ]
+        ]
+      }
+    },
+    "classes": [
+      "Business",
+      "Convertible",
+      "Gaming",
+      "General",
+      "Thin & Light"
+    ],
+    "train_images": 448,
+    "test_images": 159,
+    "total_downloaded": 991,
+    "unique_photos_after_ahash": 607,
+    "retained_class_counts": {
+      "General": 240,
+      "Gaming": 152,
+      "Thin & Light": 133,
+      "Convertible": 45,
+      "Business": 37
+    },
+    "split": "Model-family groups held out; perceptual-hash duplicates collapsed before splitting. White-background catalogue photos only; no arbitrary-photo validation.",
+    "label_quality": "Weak labels from source device_category; noisy and visually ambiguous."
+  },
+  "cross_validation": {
+    "scope": "3-fold shuffled family-group cross-validation on development (train+validation) rows only. Calibration and final test excluded. Fixed hyperparameters; equal-weight ensemble benchmark, no model selection from these results.",
+    "folds": [
+      {
+        "fold": 1,
+        "model": "Ridge",
+        "test_rows": 208,
+        "MAE_INR": 14298.982743659177,
+        "RMSE_INR": 27876.564965062702,
+        "R2": 0.8260681736513132,
+        "MAPE_pct": 13.659476419590563,
+        "median_APE_pct": 9.647737182673893
+      },
+      {
+        "fold": 1,
+        "model": "Random Forest",
+        "test_rows": 208,
+        "MAE_INR": 13275.550698566025,
+        "RMSE_INR": 24711.120382872472,
+        "R2": 0.8633261542619566,
+        "MAPE_pct": 13.38992876393316,
+        "median_APE_pct": 8.290596518607082
+      },
+      {
+        "fold": 1,
+        "model": "Extra Trees",
+        "test_rows": 208,
+        "MAE_INR": 12721.233745439058,
+        "RMSE_INR": 24064.928991846817,
+        "R2": 0.8703806882690727,
+        "MAPE_pct": 12.834299225310545,
+        "median_APE_pct": 8.930373633456439
+      },
+      {
+        "fold": 1,
+        "model": "Fixed equal-weight ensemble",
+        "test_rows": 208,
+        "MAE_INR": 12718.894478320552,
+        "RMSE_INR": 24607.374092663773,
+        "R2": 0.8644713584526678,
+        "MAPE_pct": 12.29436188989009,
+        "median_APE_pct": 7.9181763576867805
+      },
+      {
+        "fold": 2,
+        "model": "Ridge",
+        "test_rows": 294,
+        "MAE_INR": 33282.28062334344,
+        "RMSE_INR": 191816.74035177147,
+        "R2": -4.951727134164585,
+        "MAPE_pct": 18.64281617934153,
+        "median_APE_pct": 11.278244704893163
+      },
+      {
+        "fold": 2,
+        "model": "Random Forest",
+        "test_rows": 294,
+        "MAE_INR": 16833.707653667054,
+        "RMSE_INR": 34861.326224845085,
+        "R2": 0.8034116358310628,
+        "MAPE_pct": 15.613388911455594,
+        "median_APE_pct": 11.70032752917701
+      },
+      {
+        "fold": 2,
+        "model": "Extra Trees",
+        "test_rows": 294,
+        "MAE_INR": 17371.12341116998,
+        "RMSE_INR": 33654.327503361026,
+        "R2": 0.8167888787940936,
+        "MAPE_pct": 17.059862383770287,
+        "median_APE_pct": 14.39644281071738
+      },
+      {
+        "fold": 2,
+        "model": "Fixed equal-weight ensemble",
+        "test_rows": 294,
+        "MAE_INR": 17562.102665028673,
+        "RMSE_INR": 53341.25167873069,
+        "R2": 0.5397472374708621,
+        "MAPE_pct": 15.24541068758731,
+        "median_APE_pct": 10.891468430683327
+      },
+      {
+        "fold": 3,
+        "model": "Ridge",
+        "test_rows": 223,
+        "MAE_INR": 18582.096627862637,
+        "RMSE_INR": 30813.307361027037,
+        "R2": 0.7679435472655485,
+        "MAPE_pct": 16.71285206069136,
+        "median_APE_pct": 11.112434184927794
+      },
+      {
+        "fold": 3,
+        "model": "Random Forest",
+        "test_rows": 223,
+        "MAE_INR": 17742.559043740544,
+        "RMSE_INR": 30854.90862088114,
+        "R2": 0.767316522224937,
+        "MAPE_pct": 16.02142281735519,
+        "median_APE_pct": 11.059138549783363
+      },
+      {
+        "fold": 3,
+        "model": "Extra Trees",
+        "test_rows": 223,
+        "MAE_INR": 17960.860159892833,
+        "RMSE_INR": 31904.455651500542,
+        "R2": 0.7512175757241373,
+        "MAPE_pct": 16.19269387050359,
+        "median_APE_pct": 10.32308225715984
+      },
+      {
+        "fold": 3,
+        "model": "Fixed equal-weight ensemble",
+        "test_rows": 223,
+        "MAE_INR": 17560.92675768525,
+        "RMSE_INR": 30155.4540187654,
+        "R2": 0.7777464224910104,
+        "MAPE_pct": 15.7740811747211,
+        "median_APE_pct": 10.880162355214498
+      }
+    ],
+    "mean_MAE_INR": {
+      "Ridge": 22054.453331621753,
+      "Random Forest": 15950.605798657874,
+      "Extra Trees": 16017.739105500625,
+      "Fixed equal-weight ensemble": 15947.307967011491
+    }
+  }
+}

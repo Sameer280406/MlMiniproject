@@ -1,0 +1,3614 @@
+{
+  "source_rows": 992,
+  "source_sha256": "54e517965dadb40e71d91e15e2d7a22f7f5d5d2eb996705e8deb8d144a51aa53",
+  "duplicate_models": 0,
+  "missing_by_column": {
+    "brand": 0,
+    "model": 0,
+    "device_category": 0,
+    "price": 0,
+    "rating": 0,
+    "cpu_brand": 0,
+    "cpu_family": 0,
+    "cpu_series": 0,
+    "cpu_model": 0,
+    "cpu_suffix": 131,
+    "cpu_core_count": 0,
+    "cpu_thread_count": 0,
+    "cpu_p_cores": 289,
+    "cpu_e_cores": 311,
+    "cpu_lp_e_cores": 826,
+    "ram_gb": 0,
+    "storage_gb": 0,
+    "display_width_px": 0,
+    "display_height_px": 0,
+    "display_size_inch": 0,
+    "gpu_brand": 8,
+    "gpu_series": 8,
+    "gpu_model": 8,
+    "gpu_vram_gb": 700,
+    "gpu_type": 8,
+    "os_name": 0,
+    "warranty_years": 0
+  },
+  "display_corrections": [
+    {
+      "row": 1,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 2,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 8,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 9,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 11,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.1,
+      "evidence": "14.1 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 13,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 15,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 17,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 18,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 19,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 20,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 24,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 25,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 2560 x 1440 pixels"
+    },
+    {
+      "row": 28,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 29,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.2,
+      "evidence": "14.2 inches, 3024 x 1964 pixels"
+    },
+    {
+      "row": 30,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.2,
+      "evidence": "14.2 inches, 3024 x 1964 pixels"
+    },
+    {
+      "row": 31,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.2,
+      "evidence": "14.2 inches, 3024 x 1964 pixels"
+    },
+    {
+      "row": 33,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 35,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 36,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 38,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 41,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 42,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 44,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 45,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 47,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 48,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 49,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 52,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 53,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 59,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 67,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 68,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 69,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 71,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 72,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 73,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 74,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 75,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 76,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 77,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 78,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 79,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 80,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 83,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 84,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 86,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 88,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 89,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 91,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 92,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 93,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 94,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 95,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels, Touch Screen"
+    },
+    {
+      "row": 96,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 99,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 103,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 107,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 108,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 112,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 113,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 114,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 115,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 116,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 120,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 123,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 125,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 126,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 2560 x 1440 pixels"
+    },
+    {
+      "row": 127,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 128,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 129,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 131,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 133,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 134,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 135,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 137,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 138,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 149,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 152,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 153,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 154,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 156,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 159,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 160,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 161,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 162,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 163,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 172,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 174,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 175,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 180,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 182,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 185,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 188,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 189,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 196,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 197,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 198,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.1,
+      "evidence": "14.1 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 203,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 204,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 209,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 210,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 211,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 212,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 213,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 214,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 215,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 217,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 219,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 220,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 222,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 225,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 226,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 228,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 230,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 231,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 235,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 236,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 237,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 238,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 240,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 243,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 244,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 245,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 246,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 249,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 250,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 252,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 257,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 259,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 260,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 2560 x 1440 pixels"
+    },
+    {
+      "row": 262,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 2560 x 1440 pixels"
+    },
+    {
+      "row": 263,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 264,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 265,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 267,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 269,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 272,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 273,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 275,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 276,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 277,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 279,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 283,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 286,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 293,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 294,
+      "field": "display_size_inch",
+      "original": 16.0,
+      "corrected": 16.1,
+      "evidence": "16.1 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 295,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 297,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 298,
+      "field": "display_size_inch",
+      "original": 16.0,
+      "corrected": 16.1,
+      "evidence": "16.1 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 299,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 300,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 301,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 302,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 303,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 310,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 311,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 315,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 318,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 329,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 331,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 332,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 333,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 334,
+      "field": "display_size_inch",
+      "original": 17.0,
+      "corrected": 17.3,
+      "evidence": "17.3 inches, 2560 x 1440 pixels"
+    },
+    {
+      "row": 337,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 340,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 341,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 345,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 350,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 356,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 358,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 362,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 364,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 365,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 366,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 367,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 368,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 369,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 371,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 372,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 373,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 377,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 378,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 379,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 380,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 381,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 382,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 385,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 386,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 390,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.5,
+      "evidence": "14.5 inches, 3000 x 1876 pixels, Touch Screen"
+    },
+    {
+      "row": 392,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 393,
+      "field": "display_size_inch",
+      "original": 16.0,
+      "corrected": 16.1,
+      "evidence": "16.1 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 399,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 401,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 403,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 404,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 405,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 407,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 409,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 410,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 414,
+      "field": "display_size_inch",
+      "original": 11.0,
+      "corrected": 11.6,
+      "evidence": "11.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 415,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 418,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 419,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 420,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 421,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 424,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 433,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 434,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 435,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 437,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 438,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 439,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 440,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 441,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 442,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 443,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 446,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 447,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 449,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 450,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 454,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.1,
+      "evidence": "14.1 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 455,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 458,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 462,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 463,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 466,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 469,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 470,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 473,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 474,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 475,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 476,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 479,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 482,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 490,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 491,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 492,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 493,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 494,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 495,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 496,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 497,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 498,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 503,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.4,
+      "evidence": "13.4 inches, 2560 x 1600 pixels, Touch Screen"
+    },
+    {
+      "row": 507,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 508,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 512,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 513,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 514,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 516,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 518,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 520,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 521,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 523,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 2560 x 1600 pixels"
+    },
+    {
+      "row": 537,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 539,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 540,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 541,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 542,
+      "field": "display_size_inch",
+      "original": 16.0,
+      "corrected": 16.1,
+      "evidence": "16.1 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 543,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 549,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 550,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 552,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 553,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 554,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 555,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 559,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 2560 x 1600 pixels, Touch Screen"
+    },
+    {
+      "row": 563,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.5,
+      "evidence": "14.5 inches, 3200 x 2000 pixels, Touch Screen"
+    },
+    {
+      "row": 567,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 568,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 570,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 571,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 573,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.1,
+      "evidence": "14.1 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 574,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 577,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 578,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 579,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 580,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.28,
+      "evidence": "15.28 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 583,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 585,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 587,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 588,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 589,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 590,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 591,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 594,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 595,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 596,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 602,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 604,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 609,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 613,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 614,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 615,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 616,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 621,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels, Touch Screen"
+    },
+    {
+      "row": 625,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels, Touch Screen"
+    },
+    {
+      "row": 626,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels, Touch Screen"
+    },
+    {
+      "row": 627,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels, Touch Screen"
+    },
+    {
+      "row": 628,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 629,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 631,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.5,
+      "evidence": "14.5 inches, 2944 x 1840 pixels, Touch Screen"
+    },
+    {
+      "row": 632,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 633,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 2880 x 1864 pixels"
+    },
+    {
+      "row": 634,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 2880 x 1864 pixels"
+    },
+    {
+      "row": 635,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 2880 x 1864 pixels"
+    },
+    {
+      "row": 636,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.6,
+      "evidence": "13.6 inches, 2560 x 1664 pixels"
+    },
+    {
+      "row": 637,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.6,
+      "evidence": "13.6 inches, 2560 x 1664 pixels"
+    },
+    {
+      "row": 640,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 641,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 642,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 643,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 649,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 650,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 652,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 653,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 660,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 662,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 663,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 665,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 666,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 667,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 680,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 682,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 683,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 684,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 685,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 686,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 688,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 690,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 691,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 693,
+      "field": "display_size_inch",
+      "original": 11.0,
+      "corrected": 11.6,
+      "evidence": "11.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 694,
+      "field": "display_size_inch",
+      "original": 11.0,
+      "corrected": 11.6,
+      "evidence": "11.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 695,
+      "field": "display_size_inch",
+      "original": 11.0,
+      "corrected": 11.6,
+      "evidence": "11.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 696,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 698,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 699,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 700,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 701,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 702,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 703,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 704,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 705,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 707,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 2880 x 1800 pixels"
+    },
+    {
+      "row": 708,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 710,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 714,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.5,
+      "evidence": "14.5 inches, 2880 x 1800 pixels"
+    },
+    {
+      "row": 715,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 716,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 717,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 718,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 719,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 720,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 723,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 724,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.4,
+      "evidence": "13.4 inches, 2880 x 1800 pixels, Touch Screen"
+    },
+    {
+      "row": 728,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 2880 x 1800 pixels, Touch Screen"
+    },
+    {
+      "row": 730,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 732,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 733,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.4,
+      "evidence": "13.4 inches, 2880 x 1800 pixels, Touch Screen"
+    },
+    {
+      "row": 737,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 739,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 741,
+      "field": "display_size_inch",
+      "original": 16.0,
+      "corrected": 16.1,
+      "evidence": "16.1 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 742,
+      "field": "display_size_inch",
+      "original": 16.0,
+      "corrected": 16.1,
+      "evidence": "16.1 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 744,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 750,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.5,
+      "evidence": "14.5 inches, 2560 x 1440 pixels, Touch Screen"
+    },
+    {
+      "row": 754,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 755,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 757,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 761,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 762,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 765,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 2880 x 1864 pixels"
+    },
+    {
+      "row": 766,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.6,
+      "evidence": "13.6 inches, 2560 x 1664 pixels"
+    },
+    {
+      "row": 767,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.3,
+      "evidence": "15.3 inches, 2880 x 1864 pixels"
+    },
+    {
+      "row": 768,
+      "field": "display_size_inch",
+      "original": 16.0,
+      "corrected": 16.2,
+      "evidence": "16.2 inches, 3456 x 2234 pixels"
+    },
+    {
+      "row": 770,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 774,
+      "field": "display_size_inch",
+      "original": 16.0,
+      "corrected": 16.2,
+      "evidence": "16.2 inches, 3456 x 2234 pixels"
+    },
+    {
+      "row": 775,
+      "field": "display_size_inch",
+      "original": 16.0,
+      "corrected": 16.2,
+      "evidence": "16.2 inches, 3456 x 2234 pixels"
+    },
+    {
+      "row": 776,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.2,
+      "evidence": "14.2 inches, 3024 x 1964 pixels"
+    },
+    {
+      "row": 777,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.2,
+      "evidence": "14.2 inches, 3024 x 1964 pixels"
+    },
+    {
+      "row": 778,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.2,
+      "evidence": "14.2 inches, 3024 x 1964 pixels"
+    },
+    {
+      "row": 779,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.2,
+      "evidence": "14.2 inches, 3024 x 1964 pixels"
+    },
+    {
+      "row": 780,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.2,
+      "evidence": "14.2 inches, 3024 x 1964 pixels"
+    },
+    {
+      "row": 781,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.2,
+      "evidence": "14.2 inches, 3024 x 1964 pixels"
+    },
+    {
+      "row": 782,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 784,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 793,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 797,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.6,
+      "evidence": "13.6 inches, 2560 x 1664 pixels"
+    },
+    {
+      "row": 800,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 802,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 803,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 805,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 806,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.8,
+      "evidence": "15.8 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 807,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 809,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1080 x 1920 pixels"
+    },
+    {
+      "row": 810,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 813,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 814,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 815,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 818,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 819,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 820,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 823,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 824,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 825,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 827,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.5,
+      "evidence": "14.5 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 828,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 829,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.8,
+      "evidence": "15.8 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 833,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.8,
+      "evidence": "15.8 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 837,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 838,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 839,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.8,
+      "evidence": "15.8 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 840,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 841,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 842,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 844,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 845,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 849,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 851,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 2880 x 1620 pixels"
+    },
+    {
+      "row": 852,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 853,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 854,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 856,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 858,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 859,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 861,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.5,
+      "evidence": "14.5 inches, 2944 x 1840 pixels, Touch Screen"
+    },
+    {
+      "row": 864,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 865,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 866,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 867,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 868,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 869,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 870,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 871,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 877,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 878,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 881,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 884,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.1,
+      "evidence": "14.1 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 885,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.6,
+      "evidence": "13.6 inches, 2560 x 1664 pixels"
+    },
+    {
+      "row": 886,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 888,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 2880 x 1620 pixels"
+    },
+    {
+      "row": 889,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 890,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 891,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 892,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 893,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 894,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 896,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 902,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 905,
+      "field": "display_size_inch",
+      "original": 11.0,
+      "corrected": 11.6,
+      "evidence": "11.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 906,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 908,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 910,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 2880 x 1800 pixels, Touch Screen"
+    },
+    {
+      "row": 913,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 914,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 915,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 917,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 918,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 919,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 920,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 921,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.1,
+      "evidence": "14.1 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 922,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 923,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 924,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 925,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 926,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 927,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 928,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 929,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 930,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 931,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 932,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 3840 x 2160 pixels"
+    },
+    {
+      "row": 934,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.1,
+      "evidence": "14.1 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 938,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 939,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.4,
+      "evidence": "13.4 inches, 2880 x 1800 pixels, Touch Screen"
+    },
+    {
+      "row": 940,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.4,
+      "evidence": "13.4 inches, 2880 x 1800 pixels, Touch Screen"
+    },
+    {
+      "row": 941,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 942,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1366 x 768 pixels"
+    },
+    {
+      "row": 943,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 3840 x 2160 pixels"
+    },
+    {
+      "row": 948,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.8,
+      "evidence": "13.8 inches, 2304 x 1536 pixels, Touch Screen"
+    },
+    {
+      "row": 949,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.8,
+      "evidence": "13.8 inches, 2304 x 1536 pixels, Touch Screen"
+    },
+    {
+      "row": 952,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.8,
+      "evidence": "13.8 inches, 2304 x 1536 pixels, Touch Screen"
+    },
+    {
+      "row": 953,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 954,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 957,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 958,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 960,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 961,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 962,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 963,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 2560 x 1440 pixels"
+    },
+    {
+      "row": 964,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 965,
+      "field": "display_size_inch",
+      "original": 14.0,
+      "corrected": 14.5,
+      "evidence": "14.5 inches, 2880 x 1800 pixels"
+    },
+    {
+      "row": 966,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 967,
+      "field": "display_size_inch",
+      "original": 13.0,
+      "corrected": 13.3,
+      "evidence": "13.3 inches, 1920 x 1200 pixels"
+    },
+    {
+      "row": 968,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 969,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 970,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 972,
+      "field": "display_size_inch",
+      "original": 17.0,
+      "corrected": 17.3,
+      "evidence": "17.3 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 973,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 974,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 975,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 976,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 977,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 978,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 979,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 980,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 982,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 983,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 2880 x 1620 pixels"
+    },
+    {
+      "row": 984,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    },
+    {
+      "row": 988,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 2880 x 1620 pixels"
+    },
+    {
+      "row": 989,
+      "field": "display_size_inch",
+      "original": 15.0,
+      "corrected": 15.6,
+      "evidence": "15.6 inches, 1920 x 1080 pixels"
+    }
+  ],
+  "integrated_vram_policy": "Missing VRAM on integrated GPU is encoded as 0; dedicated unknown values remain missing and use training-only median imputation."
+}
